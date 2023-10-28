@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Categorías</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+  <link rel="icon" href="../Imagenes/Iconos/favicon - copia.jpg" type="FORMATO-FAV" sizes="15px">
+  <script src="https://kit.fontawesome.com/3150561218.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header>
+    <a href="../index.html"> <img id="icono" src="../Imagenes/Iconos/ABCbook.jpg" alt="IconoPagina"> </a>
+  </header>
+  <!-- Inserto Barra de Navegación -->
+  <nav>
+    <div class="navbar navbar-expand-sm" id="BigScreenMenu">
+      <!-- Links -->
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="../index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a id="menuCategorias" class="dropdown-toggle" data-toggle="dropdown" href="./Categorias.html">Categorias
+            <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li class="nav-link"><a href="Categorias.html">Ciencia Ficción</a></li>
+            <li class="nav-link"><a href="Categorias.html#carouselInfantiles">Infantiles</a></li>
+            <li class="nav-link"><a href="Categorias.html#carouselRomanticos">Románticos</a></li>
+            <li class="nav-link"><a href="Categorias.html#carouselHistoria">Historia</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./Nosotros.html">Nosotros</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./Contact.html">Contacto</a>
+        </li>
+      </ul>
+      <!-- Form de busqueda -->
+      <div class="formDeBusqueda">
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" id="formDeBusqueda" type="search" placeholder="Buscar" aria-label="Search">
+          <button id="botonDelNav" class="btn btn-outline-success" type="submit">Buscar</button>
+        </form>
+      </div>
+
+    </div>
+    <div class="navbar navbar-expand-sm" id="SmallScreenMenu">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a id="menuCategorias" class="dropdown-toggle" data-toggle="dropdown" href="./Categorias.html">Menu
+            <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li class="nav-link"><a href="../index.html">Home</a></li>
+            <li class="nav-link"><a href="./Categorias.html">Categorias</a></li>
+            <li class="nav-link"><a href="./Contact.html">Contacto</a></li>
+            <li class="nav-link"><a href="./Nosotros.html">Nosotros</a></li>
+            <li class="nav-link">
+              <div class="formDeBusqueda">
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" id="formDeBusqueda" type="search" placeholder="Buscar"
+                    aria-label="Search">
+                  <button id="botonDelNav" class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+              </div>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+
+  </nav>
+  <main>
+    <!-- Añado Carrousel de Ciencia Ficción -->
+    <div id="carouselCienciaFiccion" class="carousel slide" data-ride="carousel">
+      <h2>Ciencia Ficción</h2>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-md-6 col-lg-4">
+                <div class="card" style="width: 18rem;">
+                  <img class="card-img-top" src="../Imagenes/Libros/CienciaFiccionI.jpg" alt="Portada Un Mundo Feliz">
+                  <div class="card-body">
+                    <h5 class="card-title">Un Mundo Feliz</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                      card's content.</p>
+                    <a href="./UnmundoFeliz.html" class="btn btn-primary">Ver más</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-4">
+                <div class="card" style="width: 18rem;">
+                  <img class="card-img-top" src="../Imagenes/Libros/CienciaFiccionII.jpg"
+                    alt="Portada de Crónicas Marcianas">
+                  <div class="card-body">
+                    <h5 class="card-title">Crónicas Marcianas</h5>
+                    <p class="card-text">Exploración humana en Marte desvela sueños y conflictos en historias cortas</p>
+                    <a href="./construccion.html" class="btn btn-primary">Ver más</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-4">
+                <div class="card" style="width: 18rem;">
+                  <img class="card-img-top" src="../Imagenes/Libros/CienciaFiccionIII.jpg"
+                    alt="Portada Viaje al Centro de la Tierra">
+                  <div class="card-body">
+                    <h5 class="card-title">Viaje al Centro de la Tierra</h5>
+                    <p class="card-text">Aventureros exploran mundo subterráneo, enfrentan peligros en viaje audaz</p>
+                    <a href="./construccion.html" class="btn btn-primary">Ver más</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-md-6 col-lg-4">
+                <div class="card" style="width: 18rem;">
+                  <img class="card-img-top" src="../Imagenes/Libros/CienciaFiccionIV.jpg" alt="Portada de Fundacion">
+                  <div class="card-body">
+                    <h5 class="card-title">Fundacion</h5>
+                    <p class="card-text">Matemático predice futuro, busca preservar conocimiento en galaxia</p>
+                    <a href="./construccion.html" class="btn btn-primary">Ver más</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-4">
+                <div class="card" style="width: 18rem;">
+                  <img class="card-img-top" src="../Imagenes/Libros/CienciaFiccionV.jpg" alt="Portada 1984">
+                  <div class="card-body">
+                    <h5 class="card-title">1984</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                      card's content.</p>
+                    <a href="./1984.html" class="btn btn-primary">Ver más</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-4">
+                <div class="card" style="width: 18rem;">
+                  <img class="card-img-top" src="../Imagenes/Libros/CienciaFiccionVI.jpg" alt="Portada Farenheit 451">
+                  <div class="card-body">
+                    <h5 class="card-title">Farenheit 451</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                      card's content.</p>
+                    <a href="./construccion.html" class="btn btn-primary">Ver más</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselCienciaFiccion" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselCienciaFiccion" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    <!-- Inserto Carrousel Infantiles -->
+    <div id="carouselInfantiles" class="carousel slide" data-ride="carousel">
+      <h2>Infantiles</h2>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-md-6 col-lg-4">
+                <div class="card" style="width: 18rem;">
+                  <img class="card-img-top" src="../Imagenes/Libros/Infantiles1.jpg"
+                    alt="Portada Charlie y la Fábrica de Chocolate">
+                  <div class="card-body">
+                    <h5 class="card-title">Charlie y la Fábrica de Chocolate</h5>
+                    <p class="card-text">Niño visita fábrica mágica, conoce a Willy Wonka, vive aventuras dulces.</p>
+                    <a href="./construccion.html" class="btn btn-primary">Ver más</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-4">
+                <div class="card" style="width: 18rem;">
+                  <img class="card-img-top" src="../Imagenes/Libros/Infantiles2.jpg"
+                    alt="Portada Los Encantadores Mágicos">
+                  <div class="card-body">
+                    <h5 class="card-title">Los Encantadores Mágicos</h5>
+                    <p class="card-text">Tres hermanos con poderes mágicos luchan contra el mal en su mundo mágico</p>
+                    <a href="./construccion.html" class="btn btn-primary">Ver más</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-4">
+                <div class="card" style="width: 18rem;">
+                  <img class="card-img-top" src="../Imagenes/Libros/Infantiles3.jpg" alt="Portada El Principito">
+                  <div class="card-body">
+                    <h5 class="card-title">El Principito</h5>
+                    <p class="card-text">Pequeño príncipe explora planetas, aprende sobre la vida y la amistad</p>
+                    <a href="./construccion.html" class="btn btn-primary">Ver más</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-md-6 col-lg-4">
+                <div class="card" style="width: 18rem;">
+                  <img class="card-img-top" src="../Imagenes/Libros/Infantiles4.jpg" alt="Portada El Libro de la Selva">
+                  <div class="card-body">
+                    <h5 class="card-title">El Libro de la Selva</h5>
+                    <p class="card-text">Niño criado por lobos, enfrenta peligros y desafíos en la selva</p>
+                    <a href="./construccion.html" class="btn btn-primary">Ver más</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-4">
+                <div class="card" style="width: 18rem;">
+                  <img class="card-img-top" src="../Imagenes/Libros/Infantiles5.jpg" alt="Portada Cuentos para Niñas Sin Miedo">
+                  <div class="card-body">
+                    <h5 class="card-title">Cuentos para Niñas Sin Miedo</h5>
+                    <p class="card-text">Colección de cuentos que inspiran valentía y determinación</p>
+                    <a href="./construccion.html" class="btn btn-primary">Ver más</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-4">
+                <div class="card" style="width: 18rem;">
+                  <img class="card-img-top" src="../Imagenes/Libros/Infantiles6.jpg" alt="Portada Ricitos de Oro">
+                  <div class="card-body">
+                    <h5 class="card-title">Ricitos de Oro</h5>
+                    <p class="card-text">Una niña visita la casa de unos osos y causa revuelo</p>
+                    <a href="./construccion.html" class="btn btn-primary">Ver más</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselInfantiles" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselInfantiles" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+    <!--Inserto Carrousel Románticos  -->
+    <div id="carouselRomanticos" class="carousel slide" data-ride="carousel">
+      <h2>Románticos</h2>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-md-6 col-lg-4">
+                <div class="card" style="width: 18rem;">
+                  <img class="card-img-top" src="../Imagenes/Libros/RomanticosI.jpg" alt="Portada Antes de Diciembre">
+                  <div class="card-body">
+                    <h5 class="card-title">Antes de Diciembre</h5>
+                    <p class="card-text">Un relato sobre el amor y la guerra en una ciudad ocupada por el enemigo</p>
+                    <a href="./construccion.html" class="btn btn-primary">Ver más</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-4">
+                <div class="card" style="width: 18rem;">
+                  <img class="card-img-top" src="../Imagenes/Libros/RomanticosII.jpg" alt="Portada Crimen y Castigo">
+                  <div class="card-body">
+                    <h5 class="card-title">Crimen y Castigo</h5>
+                    <p class="card-text">Estudiante comete asesinato, lucha con la culpa y enfrenta la justicia</p>
+                    <a href="./construccion.html" class="btn btn-primary">Ver más</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-4">
+                <div class="card" style="width: 18rem;">
+                  <img class="card-img-top" src="../Imagenes/Libros/RomanticosIII.jpg" alt="Portada Donde Todo Brilla">
+                  <div class="card-body">
+                    <h5 class="card-title">Donde Todo Brilla</h5>
+                    <p class="card-text">Historia de una mujer que busca su lugar en el mundo del arte en París</p>
+                    <a href="./construccion.html" class="btn btn-primary">Ver más</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-md-6 col-lg-4">
+                <div class="card" style="width: 18rem;">
+                  <img class="card-img-top" src="../Imagenes/Libros/RomanticosIV.jpg" alt="Portada Farsa de Amor a la Española">
+                  <div class="card-body">
+                    <h5 class="card-title">Farsa de Amor a la Española</h5>
+                    <p class="card-text">Comedia de enredos en la que personajes simulan amores y confunden a todos</p>
+                    <a href="./construccion.html" class="btn btn-primary">Ver más</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-4">
+                <div class="card" style="width: 18rem;">
+                  <img class="card-img-top" src="../Imagenes/Libros/RomanticosV.jpg" alt="Portada La Ecuación del Amor">
+                  <div class="card-body">
+                    <h5 class="card-title">La Ecuación del Amor</h5>
+                    <p class="card-text">En esta historia una ecuación matemática intenta explicar y predecir el amor</p>
+                    <a href="./construccion.html" class="btn btn-primary">Ver más</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-4">
+                <div class="card" style="width: 18rem;">
+                  <img class="card-img-top" src="../Imagenes/Libros/RomanticosVI.jpg" alt="Portada Heartstopper">
+                  <div class="card-body">
+                    <h5 class="card-title">Heartstopper</h5>
+                    <p class="card-text">Dos chicos, Nick y Charlie, descubren amor en esta novela gráfica</p>
+                    <a href="./construccion.html" class="btn btn-primary">Ver más</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselRomanticos" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselRomanticos" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    <!-- Inserto Carousel Historia -->
+    <div id="carouselHistoria" class="carousel slide" data-ride="carousel">
+      <h2>Historia</h2>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-md-6 col-lg-4">
+                <div class="card" style="width: 18rem;">
+                  <img class="card-img-top" src="../Imagenes/Libros/HistoriaI.jpg" alt="Portada Atila y los Huno">
+                  <div class="card-body">
+                    <h5 class="card-title">Atila y los Huno</h5>
+                    <p class="card-text">Attila, rey de los hunos, lidera invasiones y desafía al Imperio Romano</p>
+                    <a href="./construccion.html" class="btn btn-primary">Ver más</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-4">
+                <div class="card" style="width: 18rem;">
+                  <img class="card-img-top" src="../Imagenes/Libros/HistoriaII.jpg"
+                    alt="Portada La Biblioteca Secreta de Leonardo">
+                  <div class="card-body">
+                    <h5 class="card-title">La Biblioteca Secreta de Leonardo</h5>
+                    <p class="card-text">Leonardo da Vinci crea biblioteca secreta con inventos y conocimientos ocultos</p>
+                    <a href="./construccion.html" class="btn btn-primary">Ver más</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-4">
+                <div class="card" style="width: 18rem;">
+                  <img class="card-img-top" src="../Imagenes/Libros/HistoriaIII.jpg"
+                    alt="Portada Breve Historia de la Inquisición">
+                  <div class="card-body">
+                    <h5 class="card-title">Breve Historia de la Inquisición</h5>
+                    <p class="card-text">La Inquisición: persecución religiosa, herejía y control ideológico en Europa</p>
+                    <a href="./construccion.html" class="btn btn-primary">Ver más</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-md-6 col-lg-4">
+                <div class="card" style="width: 18rem;">
+                  <img class="card-img-top" src="../Imagenes/Libros/HistoriaIV.jpg" alt="Portada Los Medici">
+                  <div class="card-body">
+                    <h5 class="card-title">Los Medici</h5>
+                    <p class="card-text">La familia Medici de Florencia: mecenazgo, poder y arte en el Renacimiento</p>
+                    <a href="./construccion.html" class="btn btn-primary">Ver más</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-4">
+                <div class="card" style="width: 18rem;">
+                  <img class="card-img-top" src="../Imagenes/Libros/HistoriaV.jpg" alt="Portada Catalina la Grande">
+                  <div class="card-body">
+                    <h5 class="card-title">Catalina la Grande</h5>
+                    <p class="card-text">Biografía de Catalina II de Rusia, su reinado y su legado en la historia rusa</p>
+                    <a href="./construccion.html" class="btn btn-primary">Ver más</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-4">
+                <div class="card" style="width: 18rem;">
+                  <img class="card-img-top" src="../Imagenes/Libros/HistoriaVI.jpg" alt="Portada Reyes de España">
+                  <div class="card-body">
+                    <h5 class="card-title">Reyes de España</h5>
+                    <p class="card-text">Henry Kamen analiza influencia de monarcas españoles en historia ibérica</p>
+                    <a href="./construccion.html" class="btn btn-primary">Ver más</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselHistoria" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselHistoria" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+    <div class="newsletter">
+      <p id="newsletter">Suscribete a nuestro newsletter</p>
+      <form id="newsletterForm" ; method="get">
+        <input type="email" name="mail" id="newsletterMail" placeholder="Escribe tu dirección de mail"></br>
+        <input type="submit" id="enviar" name="enviar" value="Enviar" />
+      </form>
+    </div>
+  </main>
+  <footer>
+    <div id="BigScreenFooter">
+      <div id="iconoFooter">
+        <a href="../index.html"> <img id="icono" src="../Imagenes/Iconos/ABCbook.jpg" alt="IconoPagina"> </a>
+      </div>
+      <div id="iconoContacto">
+        <i class="fa-brands fa-instagram fa-2x"></i>
+        <i class="fa-brands fa-facebook fa-2x"></i>
+        <i class="fa-brands fa-twitter fa-2x"></i>
+      </div>
+      <div id="LinksFooter">
+        <a href="../index.html">Home</a>
+        <a href="./Nosotros.html">Nosotros</a>
+        <a href="./Contact.html">Contacto</a>
+      </div>
+      <div id="categoriasFooter">
+        <a href= "./Categorias.html">Categorias</a>
+        <a href="./Categorias.html#carouselCienciaFiccion">Ciencia Ficción</a>
+        <a href="./Categorias.html#carouselInfantiles">Infantiles</a>
+        <a href="./Categorias.html#carouselRomanticos">Románticos</a>
+        <a href="./Categorias.html#carouselHistoria">Historia</a>     
+      </div>
+    </div>
+    <div id="SmallScreenFooter">
+      <div id="iconoFooter">
+        <a href="../index.html"> <img id="icono" src="../Imagenes/Iconos/ABCbook.jpg" alt="IconoPagina"> </a>
+      </div>
+      <div id="iconoContacto">
+        <i class="fa-brands fa-instagram fa-2x"></i>
+        <i class="fa-brands fa-facebook fa-2x"></i>
+        <i class="fa-brands fa-twitter fa-2x"></i>
+      </div>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+  </div>
+</body>

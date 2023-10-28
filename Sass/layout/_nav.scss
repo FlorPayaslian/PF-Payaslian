@@ -1,0 +1,99 @@
+nav{
+    background-color:  #fef4f4;
+    display: flex;
+    justify-content: center;
+    
+    @media (max-width: 576px) {
+
+        #SmallScreenMenu{
+            display: flex;
+            justify-content: center;           
+
+        }
+        #BigScreenMenu{
+            display: none;
+        }
+        #botonDelNav{
+            display: none;
+        }
+
+        .dropdown-menu{
+            background-color:  #fef4f4;
+            border-width: 0;
+        }
+        #menuCategorias{
+            display: flex;
+            align-items: center;
+        }
+    }
+    
+    @media (min-width: 577px) and (max-width: 830px) {
+        #SmallScreenMenu{
+            display: none;
+        }
+        #formDeBusqueda{
+            display: none;
+        }
+        #botonDelNav{
+            display: none;
+        }
+    }
+    
+    @media (min-width: 831px) {
+        #SmallScreenMenu{
+            display: none;
+        }
+        #BigScreenMenu{
+            display: flex;
+            justify-content: center;            
+        }
+    }
+    .navbar-nav{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        .nav-item{
+            margin-left: 2%;
+            margin-right: 2%;
+            padding: 0px;
+            min-width: fit-content;
+        }
+
+    }
+    
+    .d-flex{
+        display: flex;
+        justify-content: center;
+        margin-left: 20%;
+    }
+    .dropdown-toggle{
+        font-size: 19px;
+        font-family:"Roboto", sans-serif;
+    }
+    .nav-link {
+        font-size: 19px;
+        font-family:"Roboto",sans-serif;
+    }
+
+    .btn-outline-success{
+        background-color: red;
+        border-color: red;
+
+        color: white;
+        &:hover{
+            background-color: white;
+            border-color: red;
+            color: red;
+            border-width: 3px;
+        }
+    }
+
+    a{
+        color: gray;
+        &:hover{
+            color: red;
+        }    
+    }
+   
+}
