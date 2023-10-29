@@ -3,6 +3,7 @@
     .Ubicacion {
         display: grid;
         grid-template-rows: 50%  auto;
+        row-gap: 1em;
 
         #mapita{
             grid-row-start: 1;
@@ -16,7 +17,7 @@
         .datosDeContacto{
             grid-row-start: 2;
             margin-left: 2em;
-                
+            
             .dato{
                 font-family: Georgia, 'Times New Roman', Times, serif;
                 font-weight: bold;

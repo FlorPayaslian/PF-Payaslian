@@ -212,6 +212,7 @@ footer {
 }
 @media (max-width: 830px) {
   footer #SmallScreenFooter {
+    margin-bottom: 1em;
     display: grid;
     justify-content: center;
   }
@@ -376,6 +377,7 @@ footer #leyendaFooter {
   .Ubicacion {
     display: grid;
     grid-template-rows: 50% auto;
+    row-gap: 1em;
   }
   .Ubicacion #mapita {
     grid-row-start: 1;
