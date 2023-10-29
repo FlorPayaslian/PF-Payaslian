@@ -1,58 +1,74 @@
-.Ubicacion {
-    display:inline-block;
-    margin-top: 10px;
+
+@media (max-width: 567px) {
+
+    
 }
 
-#mapita {
-    width: 100%;
-    margin: 2em;
-    position: relative;
-
+@media (max-width: 576) and (min-width: 830px) {
+    
 }
 
-#formContacto{
-    display: grid;
-    padding-left: 1em;
-    padding-right: 1em;
-    grid-template-rows: 20% 20% auto;
-    column-gap: 2em;
-    row-gap: 1em;
-    #NombreApellido{
+@media (min-width: 831px) {
+    .Ubicacion {
         display: grid;
-        grid-template-columns: auto auto;
+        grid-template-columns: 50% 50%;
+        margin-top: 10px;
+
+        #mapita {
+            grid-column-start: 1;
+            width: 50%;
+            margin: 2em;
+            position: relative;
+        
+        }
+        .datosDeContacto{
+            grid-column-start: 2;
+            display: block;
+            margin-left: 2em;
+            padding-top: 20%;
+                
+            .dato{
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                font-weight: bold;
+                font-size: 17px;
+            }
+    
+        }
+
+    }
+    
+    
+    #formContacto{
+        display: grid;
+        padding-left: 1em;
+        padding-right: 1em;
+        grid-template-rows: 20% 20% auto;
         column-gap: 2em;
-        #formNombre{
-            grid-column: 1;
-            grid-row: 1;
+        row-gap: 1em;
+        #NombreApellido{
+            display: grid;
+            grid-template-columns: auto auto;
+            column-gap: 2em;
+            #formNombre{
+                grid-column: 1;
+                grid-row: 1;
+            }
+            #formApellido{
+                grid-column: 2;
+                grid-row: 1;
+            }
         }
-        #formApellido{
-            grid-column: 2;
-            grid-row: 1;
+    
+        #formEmail{
+            grid-row: 2;
+        }
+        #formComentario{
+            grid-row: 3;
         }
     }
 
-    #formEmail{
-        grid-row: 2;
-    }
-    #formComentario{
-        grid-row: 3;
-    }
 }
 
-
-
-.datosDeContacto{
-    display: inline-block;
-    margin-left: 35px;
-    position: relative;
-    bottom: 100px;
-}
-
-.dato{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: bold;
-    font-size: 17px;
-}
 
 .sobreNosotros{
     padding-left: 1em;
