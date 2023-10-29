@@ -1,4 +1,4 @@
-@media (min-width: 500px){
+@media (min-width: 568px){
 .newsletter{
         box-sizing: border-box;
         background-color: rgba(0, 0, 255, 0.822);
@@ -25,6 +25,47 @@
         background-color: rgb(236, 28, 28);
         border-radius: 0.5em;
         height: 2em;
+        width: 50%;
+        padding-top: 5px;
+        color: wheat;
+
+    }
+
+    #newsletterMail{
+        width: 50%;
+        height: 40px;
+        border-color: rgb(165, 155, 155);
+    }
+}
+@media (max-width: 576px){
+    .newsletter{
+        box-sizing: border-box;
+        background-color: rgba(0, 0, 255, 0.822);
+        height: 10em;
+        padding-top: 0;
+        padding-bottom: 7em;
+        border-color: black;
+        border: 3em;
+    }
+    #newsletter{
+        font-family: Playfair Display;
+        font-size: 2em;
+        color: white;
+        text-align: center;
+        width: 100%
+    }
+    #newsletterForm{
+        box-sizing: border-box;
+        text-align: center;
+        font-size: 1em;
+        font-weight: 50;
+        width: 100%;
+    }
+    #enviar{
+        font-size: 1.2em;
+        background-color: rgb(236, 28, 28);
+        border-radius: 0.5em;
+        height: 2em;
         width: 100%;
         padding-top: 5px;
         color: wheat;
@@ -37,44 +78,3 @@
         border-color: rgb(165, 155, 155);
     }
 }
-    @media (max-width: 576px){
-        .newsletter{
-            box-sizing: border-box;
-            background-color: rgba(0, 0, 255, 0.822);
-            height: 10em;
-            padding-top: 0;
-            padding-bottom: 7em;
-            border-color: black;
-            border: 3em;
-        }
-        #newsletter{
-            font-family: Playfair Display;
-            font-size: 2em;
-            color: white;
-            text-align: center;
-            width: 100%
-        }
-        #newsletterForm{
-            box-sizing: border-box;
-            text-align: center;
-            font-size: 1em;
-            font-weight: 50;
-            width: 100%;
-        }
-        #enviar{
-            font-size: 1.2em;
-            background-color: rgb(236, 28, 28);
-            border-radius: 0.5em;
-            height: 2em;
-            width: 100%;
-            padding-top: 5px;
-            color: wheat;
-    
-        }
-    
-        #newsletterMail{
-            width: 100%;
-            height: 40px;
-            border-color: rgb(165, 155, 155);
-        }
-    }
