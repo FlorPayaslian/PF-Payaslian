@@ -76,6 +76,8 @@ nav .navbar-nav {
   align-items: center;
 }
 nav .navbar-nav .nav-item {
+  margin-left: 2%;
+  margin-right: 2%;
   padding: 0px;
   min-width: fit-content;
 }
