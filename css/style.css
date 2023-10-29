@@ -375,17 +375,16 @@ footer #leyendaFooter {
 @media (max-width: 567px) {
   .Ubicacion {
     display: grid;
-    grid-template-columns: 50% 50%;
-    margin-top: 10px;
+    grid-template-rows: 50% 50%;
   }
   .Ubicacion #mapita {
-    grid-column-start: 1;
+    grid-row-start: 1;
     width: 40%;
     margin: 2em;
     position: relative;
   }
   .Ubicacion .datosDeContacto {
-    grid-column-start: 2;
+    grid-row-start: 2;
     display: block;
     margin-left: 2em;
   }
