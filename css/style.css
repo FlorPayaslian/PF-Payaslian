@@ -372,6 +372,29 @@ footer #leyendaFooter {
     border-color: rgb(165, 155, 155);
   }
 }
+@media (max-width: 567px) {
+  .Ubicacion {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 10px;
+  }
+  .Ubicacion #mapita {
+    grid-column-start: 1;
+    width: 50%;
+    margin: 2em;
+    position: relative;
+  }
+  .Ubicacion .datosDeContacto {
+    grid-column-start: 2;
+    display: block;
+    margin-left: 2em;
+  }
+  .Ubicacion .datosDeContacto .dato {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-weight: bold;
+    font-size: 17px;
+  }
+}
 @media (min-width: 831px) {
   .Ubicacion {
     display: grid;

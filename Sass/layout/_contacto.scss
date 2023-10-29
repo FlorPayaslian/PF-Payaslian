@@ -1,6 +1,31 @@
 
 @media (max-width: 567px) {
+    .Ubicacion {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        margin-top: 10px;
 
+        #mapita {
+            grid-column-start: 1;
+            width: 50%;
+            margin: 2em;
+            position: relative;
+        
+        }
+        .datosDeContacto{
+            grid-column-start: 2;
+            display: block;
+            margin-left: 2em;
+                
+            .dato{
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                font-weight: bold;
+                font-size: 17px;
+            }
+    
+        }
+
+    }
     
 }
 
