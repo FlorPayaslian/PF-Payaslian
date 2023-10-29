@@ -398,7 +398,7 @@ footer #leyendaFooter {
     font-size: 17px;
   }
 }
-@media (min-width: 831px) {
+@media (min-width: 567px) {
   .Ubicacion {
     display: grid;
     grid-template-columns: 50% 50%;
