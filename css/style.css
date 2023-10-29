@@ -375,7 +375,7 @@ footer #leyendaFooter {
 @media (max-width: 567px) {
   .Ubicacion {
     display: grid;
-    grid-template-rows: 50% 50%;
+    grid-template-rows: 70% auto;
   }
   .Ubicacion #mapita {
     grid-row-start: 1;
