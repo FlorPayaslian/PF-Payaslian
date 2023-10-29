@@ -3,7 +3,7 @@ nav{
     display: flex;
     justify-content: center;
     
-    @media (max-width: 576px) {
+    @media (max-width: 600px) {
 
         #SmallScreenMenu{
             display: flex;
@@ -27,7 +27,7 @@ nav{
         }
     }
     
-    @media (min-width: 577px) and (max-width: 830px) {
+    @media (min-width: 601px) and (max-width: 830px) {
         #SmallScreenMenu{
             display: none;
         }

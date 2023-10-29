@@ -27,7 +27,7 @@ nav {
   display: flex;
   justify-content: center;
 }
-@media (max-width: 576px) {
+@media (max-width: 600px) {
   nav #SmallScreenMenu {
     display: flex;
     justify-content: center;
@@ -47,7 +47,7 @@ nav {
     align-items: center;
   }
 }
-@media (min-width: 577px) and (max-width: 830px) {
+@media (min-width: 601px) and (max-width: 830px) {
   nav #SmallScreenMenu {
     display: none;
   }
