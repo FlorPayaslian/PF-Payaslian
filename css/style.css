@@ -28,6 +28,7 @@ nav {
   background-color: #fef4f4;
   display: flex;
   justify-content: center;
+  width: 100%;
 }
 @media (max-width: 500px) {
   nav #SmallScreenMenu {
@@ -366,7 +367,7 @@ footer #leyendaFooter {
     color: wheat;
   }
   #newsletterMail {
-    width: 30em;
+    width: 100%;
     height: 40px;
     border-color: rgb(165, 155, 155);
   }
