@@ -377,7 +377,7 @@ footer #leyendaFooter {
   .Ubicacion {
     display: grid;
     grid-template-rows: 50% auto;
-    row-gap: 1em;
+    row-gap: 1.3em;
   }
   .Ubicacion #mapita {
     grid-row-start: 1;
@@ -386,7 +386,7 @@ footer #leyendaFooter {
     width: 15em;
     height: auto;
     margin: 1em;
-    margin-left: 20%;
+    margin-left: 2.5em;
   }
   .Ubicacion .datosDeContacto {
     grid-row-start: 2;
