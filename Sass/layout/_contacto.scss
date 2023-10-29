@@ -12,12 +12,13 @@
             width: 15em;
             height: auto;
             margin: 1em;
+            margin-left: 20%;
         
         }
         .datosDeContacto{
             grid-row-start: 2;
             margin-left: 2em;
-            
+
             .dato{
                 font-family: Georgia, 'Times New Roman', Times, serif;
                 font-weight: bold;

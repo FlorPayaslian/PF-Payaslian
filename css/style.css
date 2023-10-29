@@ -386,6 +386,7 @@ footer #leyendaFooter {
     width: 15em;
     height: auto;
     margin: 1em;
+    margin-left: 20%;
   }
   .Ubicacion .datosDeContacto {
     grid-row-start: 2;
