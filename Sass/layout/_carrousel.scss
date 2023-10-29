@@ -11,7 +11,7 @@ h2{
     display: block;
     box-sizing: border-box;
     background-color: rgba(245, 245, 245, 0.120);
-    padding-left: 2em;
+    padding-left: 4.5em;
     padding-right: 2em;
     margin-left: 0.5em;
     margin-right: 0.5em;
@@ -71,6 +71,7 @@ h2{
     }
 
     .carousel-control-prev{
+
         box-sizing: border-box;
         margin-left: 1em;
         background-color: red;
@@ -82,6 +83,7 @@ h2{
     }
     
     .carousel-control-next{
+
         box-sizing: border-box;
         margin-right: 1em;
         background-color: red;
