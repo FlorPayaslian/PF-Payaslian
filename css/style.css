@@ -384,7 +384,6 @@ footer #leyendaFooter {
   }
   .Ubicacion .datosDeContacto {
     grid-row-start: 3;
-    display: block;
     margin-left: 2em;
   }
   .Ubicacion .datosDeContacto .dato {
