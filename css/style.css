@@ -379,7 +379,7 @@ footer #leyendaFooter {
   }
   .Ubicacion #mapita {
     grid-row-start: 1;
-    width: 1vh;
+    width: 0.3vh;
     margin: 1em;
   }
   .Ubicacion .datosDeContacto {
